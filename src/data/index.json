@@ -26,7 +26,7 @@
       "src": "./img/placeholder-image.png",
       "title": "IoT Home Automation using Cloud Computing ",
       "description": "A web app for a cloud-based home automation system operable from 190 countries. Utilized Google Firebase, Arduino, Node MCU, and sensors for efficiency. Achieved 79% accuracy and 50% more efficiency than previous products.",
-      "link": "May 2-24"
+      "link": "https://github.com/shahcharmil73/Eazepay---Online-Food-"
     },
     {
       "id": "2",
@@ -40,7 +40,7 @@
       "src": "./img/placeholder-image-2.png",
       "title": "Food Ordering and Fees Payment System for Colleges",
       "description": "A comprehensive college application with features including an online notice board, canteen ordering, and fee payment system. Utilized Express JS, Node JS, and React JS, integrating payment APIs like PayPal and Google Pay for a comprehensive solution.",
-      "link": "View In Github"
+      "link": "https://github.com/shahcharmil73/Eazepay---Online-Food-"
     }
   ],
   "experience" : [

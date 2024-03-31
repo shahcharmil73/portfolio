@@ -11,7 +11,9 @@ export default function MyPortfolio() {
           <h1 className="section--heading">My Portfolio</h1>
         </div>
         <div>
-          <button className="btn btn-github">
+        <a 
+              href="https://github.com/shahcharmil73?tab=repositories">
+             <button className="btn btn-github" >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -19,6 +21,7 @@ export default function MyPortfolio() {
               viewBox="0 0 33 33"
               fill="none"
             >
+              
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -27,7 +30,7 @@ export default function MyPortfolio() {
               />
             </svg>
             Visit My GitHub
-          </button>
+          </button></a>
         </div>
       </div>
       <h2 className="sub--title">Recent Experiences</h2>
@@ -72,7 +75,7 @@ export default function MyPortfolio() {
         
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img">
+           <div className="portfolio--section--img">
             <img src={item.src} alt="Placeholder" />
             </div>
             <div className="portfolio--section--card--content">
@@ -81,11 +84,12 @@ export default function MyPortfolio() {
               <p className="experience-company">{item.company}</p>
               <p className="experience-date">{item.date}</p>
               
-                <p className="text-md">{item.description}</p>
+                <p className="text-md">{item.description}
+                </p>
               </div>
               <p className="text-sm portfolio--link">
                 
-                
+                <a href ={item.link}>View in Github</a>
               </p>
             </div>
           </div>
