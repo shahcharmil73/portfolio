@@ -30,24 +30,46 @@
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/placeholder-image-2.png",
       "title": "Supply Chain Tracking Project (Blockchain & .NET) ",
       "description":  "A .NET-based blockchain supply chain system, utilizing decentralized architecture and smart contracts for transparency and data integrity. Integrated IoT devices for regulatory compliance, achieving a 30% boost in efficiency.",
       "link": "View In Github"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/placeholder-image-1.png",
       "title": "Food Ordering and Fees Payment System for Colleges",
       "description": "A comprehensive college application with features including an online notice board, canteen ordering, and fee payment system. Utilized Express JS, Node JS, and React JS, integrating payment APIs like PayPal and Google Pay for a comprehensive solution.",
       "link": "https://github.com/shahcharmil73/Eazepay---Online-Food-"
+    },
+    {
+      "id": "4",
+      "src": "./img/askey.jpeg",
+      "title": "Used and New Car Website for Askey Auto(FreeLancing)",
+      "description": "Developed a dynamic website for Askey Auto, facilitating the buying and selling of both new and used cars. The website incorporated modern web technologies, including Node.js, React.js, Firebase, HTML, and CSS, to ensure a seamless user experience.",
+      "link": "https://github.com/mehtaAnsh/askey-auto"
+    }, 
+    {
+      "id": "5",
+      "src": "./img/Logo.JPG",
+      "title": "Medicare Shopping System - Flask ",
+      "description": "Developed a Medicare Shopping System using Flask, HTML, and CSS to provide users with a seamless experience in browsing and selecting Medicare products like medicine. The system leveraged Flask's lightweight and efficient framework to handle user requests and responses.",
+      "link": "https://github.com/shahcharmil73/shopping_cart_python"
+    },
+    {
+      "id": "6",
+      "src": "./img/Line-Graph.png",
+      "title": "Uncovering the Factors that Drive Airbnb Bookings and Revenue ",
+      "description":  "A portfolio which analyze NYC Airbnb data, predicting bookings and revenue. Conducted demand, price, and geospatial analyses. Developed fraud detection algorithms. Grouped owners based on pet, smoking, and party policies",
+      "link": "https://github.com/shahcharmil73/Uncovering-the-Factors-that-Drive-Airbnb-Bookings-and-Revenue"
     }
+
   ],
   "experience" : [
     {
     "item":"August 2023 - May 2024",
     "title": "Web Developer Intern",
-    "company": "ScholarshipAudition.com",
+    "company": "  .com",
     "bulletPoints": [
       "Acquired expertise in web technologies including HTML, Angular, React, CSS, PHP, Webflow, JavaScript and Azure complemented by practical experience in using Adobe Creative Cloud software.",
       " Collaborated closely with CEO and cross-functional team to spearhead design, development, and enhancement of ScholarshipAuditions.com, resulting in a significant increase in website traffic and a notable boost in user engagement throug optimized graphics and UI/UX improvements"
