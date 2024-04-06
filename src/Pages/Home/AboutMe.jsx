@@ -44,10 +44,23 @@ export default function AboutMe() {
           <hr style={{color:'black'}}>
       </hr>
      
-     <h1 className='skills-section-heading'>MY EDUCATION</h1>
-    <Timeline items={educationTimeline} />
+      <h1 className='skills-section-heading'>MY EDUCATION</h1>
+        <VerticalTimeline>
+          {educationTimeline.map((item, index) => (
+            <VerticalTimelineElement
+              key={index}
+              date={item.date}
+              dateClassName="date"
+              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff', width:'20px', height: '20px'}}
+               //icon={<SchoolIcon />}// You can use an icon to represent education
+            >
+              <h3 className="vertical-timeline-element-title">{item.title}</h3>
+              <h4 className="vertical-timeline-element-subtitle">{item.description}</h4>
+              {/* You can add a description here if needed */}
+            </VerticalTimelineElement>
+          ))}
+        </VerticalTimeline>
         </div>
-
  
         
       </div>

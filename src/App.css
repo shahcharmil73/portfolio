@@ -909,12 +909,6 @@ input[type="checkbox"] {
   color: #F8F0E3;
 }
 
-.timeline
-{
-  margin-bottom: 10px;
-  color : burlywood;
-  font-weight: 600;
-}
 .title
 {
   margin-bottom: 10px;
@@ -933,7 +927,60 @@ input[type="checkbox"] {
 }
 
 
+.vertical-timeline::before {
+  /* This is the vertical line */
+  background: #000000 !important; /* Force black color for the line */
+}
 
+.vertical-timeline-element-icon {
+  /* This targets the circle icons */
+  box-shadow: 0 0 0 4px #fff !important; /* White border around the icon */
+  background: #ff4081 !important; /* Or any other color you want for the icon background */
+}
+
+.vertical-timeline-element-icon svg {
+  /* If you are using SVGs inside the icons */
+  display: block;
+}
+
+.vertical-timeline-element-content {
+  /* This targets the content box of each timeline element */
+  background-color: #f0f0f0 !important; /* Or any other color for the box background */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16) !important;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-title {
+  /* This targets the title within the content box */
+  background-color: #333 !important; /* Or any other color for the title background */
+  color: #fff !important; /* Or any other color for the title text */
+  padding: 5px 10px !important;
+  display: inline-block;
+}
+
+/* Additional styles to ensure the line is in the middle */
+.vertical-timeline-element-content,
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  color: #000 !important; /* Or any other color for the text */
+}
+
+/* If your timeline elements are not full-width you might need to set the line position manually */
+.vertical-timeline .vertical-timeline-element::before {
+  background: #000000 !important; /* This ensures the connector line is black */
+  content: '';
+  position: absolute;
+  left: calc(50% - 2px); /* Adjusts the line to be in the middle */
+  height: 100%;
+  width: 4px; /* Width of the line */
+}
+
+/* Custom CSS file */
+
+.timeline-item-custom {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+
+/* Ensure your custom styles load after the library's styles */
 
 
 
