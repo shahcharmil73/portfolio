@@ -6,8 +6,19 @@ import Home from "./Pages/Home/Homescreen";
 import AboutMe from "./Pages/Home/AboutMe";
 import MyPortfolio from "./Pages/Home/MyPortfolio";
 import ContactMe from "./Pages/Home/ContactMe";
+import { initializeApp } from "firebase/app";
 
 function App() {
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDtMYnYFGYyZ3AivXVuV_8HSPPE_IwzsSc",
+    authDomain: "fir-portfolio-ffec3.firebaseapp.com",
+    projectId: "fir-portfolio-ffec3",
+    storageBucket: "fir-portfolio-ffec3.appspot.com",
+    messagingSenderId: "290007192783",
+    appId: "1:290007192783:web:678439aa45897dcc8c13ba"
+  };
+
   return (
     <div className="App">
       <Router>
@@ -23,7 +34,9 @@ function App() {
         </div>
       </Router>
     </div>
+     
   );
 }
+
 
 export default App;

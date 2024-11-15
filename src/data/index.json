@@ -107,11 +107,12 @@
       
           },
           {
-            "item":"August 2020 - April 2021",
+            "item":"August 2021 - May 2022",
             "title": "Web Developer ",
             "company": "Le-Exceller",
-            "bulletPoints": [
-             "Maintenance and refining of existing websites to be replaced into new website. ", 
+            "bulletPoints": [ "Increased contract tender data retrieval speed by 35% by developing an automated web scraping and PDF extraction pipeline. Streamlined the process with data preprocessing and cleaning, minimizing manual intervention and enhancing accuracy.",
+ "Boosted image data processing accuracy to 95% by designing and deploying deep learning models using Python integrated with JavaScript for seamless data flow, delivering high-precision image recognition capabilities for critical project requirements.",
+  "Improved web presence by developing and maintaining Exceller’s primary website using HTML, JavaScript, and Node.js, ensuring responsive design and optimized performance. Tracked and monitored e-commerce metrics, implementing updates that drove higher user engagement and conversion rates ", 
               "Designing marketing posters and handling social media "
             ]
         
