@@ -1,67 +1,137 @@
 {
-  "skills": [
-    {
-      "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Full Stack",
-      "description": "Full-stack developer with expertise in front-end technologies (React, Angular), back-end development (Node.js, C#), and database management (SQL, NoSQL), dedicated to delivering high-quality, user-centric web applications."
-    },
-   
-    {
-      "id": "3",
-      "src": "./img/3924643-200.png",
-      "title": "Embedded System",
-      "description": "Embedded systems engineer with expertise in designing and optimizing hardware and software solutions, proficient in microcontroller programming (Arduino, Raspberry Pi), sensor integration, and real-time operating systems, committed to developing efficient and innovative embedded solutions for diverse applications."
-    },
-    {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Webflow developer with expertise in creating responsive and visually appealing websites, proficient in web design principles, HTML, CSS, and JavaScript, dedicated to delivering high-quality and engaging web experiences for clients."
-    }
+
+ "groupedSkills": {
+  "Frontend": [
+    { "name": "React", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    { "name": "Redux", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" },
+    { "name": "Next.js", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+    { "name": "Angular", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" },
+    { "name": "Vue.js", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
+    { "name": "JSP", "src": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png" },
+    { "name": "Thymeleaf", "src": "https://th.bing.com/th/id/OIP.x67JmkrTFWIRRfs7SrObywAAAA?rs=1&pid=ImgDetMain" },
+    { "name": "HTML5", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+    { "name": "CSS3", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+    { "name": "Tailwind CSS", "src": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
+    { "name": "Bootstrap", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
+    { "name": "TypeScript", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" }
   ],
-  "portfolio": [
+  "Backend": [
+    { "name": "Node.js", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+    { "name": "Express.js", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+    { "name": "Spring Boot", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+    { "name": "Java", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+    { "name": "Python", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { "name": "GraphQL", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" },
+    { "name": "RESTful APIs", "src": "https://cdn-icons-png.flaticon.com/512/1048/1048953.png" },
+    { "name": "WebSocket", "src": "https://cdn-icons-png.flaticon.com/512/1006/1006360.png" },
+    { "name": ".NET", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" },
+    { "name": "C++", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+    { "name": "C#", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" }
+  ],
+  "Blockchain": [
+    { "name": "Hyperledger Fabric", "src": "https://www.vectorlogo.zone/logos/linuxfoundation/linuxfoundation-icon.svg" },
+    { "name": "Smart Contracts", "src": "https://cdn-icons-png.flaticon.com/512/10254/10254497.png" },
+    { "name": "Ethereum", "src": "https://th.bing.com/th/id/OIP.iFoSDOb3RDepCSuxXxM4EgHaHv?w=244&h=255&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"},
+    { "name": "Solidity", "src": "https://th.bing.com/th/id/OIP.EUAWosypUVgMTV0aq5ZVrgHaE8?w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" }
+  ],
+  "Databases": [
+    { "name": "MongoDB", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+    { "name": "MySQL", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+    { "name": "PostgreSQL", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+    { "name": "Redis", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" },
+    { "name": "Firebase", "src": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
+    { "name": "DynamoDB", "src": "https://th.bing.com/th/id/OIP.NtHcLIi9ig9x4KVb9nWnKQHaIY?w=145&h=180&c=7&r=0&o=5&pid=1.7" }
+  ],
+  "Cloud Platforms": [
+    { "name": "AWS", "src": "https://th.bing.com/th/id/OIP.FhxjbXElh8utz21n96w5vwHaEl?w=309&h=191&c=7&r=0&o=5&pid=1.7" },
+    { "name": "Azure", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+    { "name": "GCP", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" }
+  ],
+  "CI/CD & Testing": [
+    { "name": "Jenkins", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+    { "name": "GitHub Actions", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+    { "name": "Docker", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+    { "name": "Kubernetes", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
+    { "name": "Jest", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" },
+    { "name": "JUnit", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+    { "name": "Selenium", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" },
+    { "name": "Cypress", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg" }
+  ],
+  "Security": [
+    { "name": "OAuth2", "src": "https://cdn-icons-png.flaticon.com/512/1048/1048943.png" },
+    { "name": "JWT", "src": "https://jwt.io/img/pic_logo.svg" },
+    { "name": "SSL/TLS", "src": "https://cdn-icons-png.flaticon.com/512/4727/4727493.png" },
+    { "name": "RBAC", "src": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png" },
+    { "name": "OWASP", "src": "https://owasp.org/assets/images/logo.svg" }
+  ],
+  "Version Control": [
+    { "name": "Git", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+    { "name": "GitHub", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+    { "name": "GitLab", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" },
+    { "name": "Bitbucket", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" }
+  ],
+  "Project Management": [
+    { "name": "Jira", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
+    { "name": "Confluence", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" },
+    { "name": "Trello", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" },
+    { "name": "Slack", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" },
+    { "name": "Agile", "src": "https://cdn-icons-png.flaticon.com/512/7987/7987753.png" },
+    { "name": "Scrum", "src": "https://cdn-icons-png.flaticon.com/512/3620/3620899.png" }
+  ],
+  "UI/UX": [
+    { "name": "Figma", "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+    { "name": "Adobe XD", "src": "https://cdn-icons-png.flaticon.com/512/5968/5968520.png" }
+  ]
+},
+
+
+  "projects": [
     {
-      "id": "1",
-      "src": "./img/placeholder-image.png",
+      "image": "./img/placeholder-image.png",
       "title": "IoT Home Automation using Cloud Computing ",
       "description": "A web app for a cloud-based home automation system operable from 190 countries. Utilized Google Firebase, Arduino, Node MCU, and sensors for efficiency. Achieved 79% accuracy and 50% more efficiency than previous products.",
-      "link": "https://github.com/shahcharmil73/Eazepay---Online-Food-"
+      "link": "https://github.com/shahcharmil73/Eazepay---Online-Food-",
+      "tags": ["Cloud, Android, Embedded, Arduino, nodejs, GCP, OAuth2"]
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-2.png",
+      "image": "./img/placeholder-image-2.png",
       "title": "Supply Chain Tracking Project (Blockchain & .NET) ",
       "description":  "A .NET-based blockchain supply chain system, utilizing decentralized architecture and smart contracts for transparency and data integrity. Integrated IoT devices for regulatory compliance, achieving a 30% boost in efficiency.",
-      "link": "View In Github"
+      "link": "View In Github",
+      "tags": ["Cloud, Android, Embedded, Arduino, nodejs, GCP, OAuth2"]
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-1.png",
+      "image": "./img/placeholder-image-1.png",
       "title": "Food Ordering and Fees Payment System for Colleges",
       "description": "A comprehensive college application with features including an online notice board, canteen ordering, and fee payment system. Utilized Express JS, Node JS, and React JS, integrating payment APIs like PayPal and Google Pay for a comprehensive solution.",
-      "link": "https://github.com/shahcharmil73/Eazepay---Online-Food-"
+      "link": "https://github.com/shahcharmil73/Eazepay---Online-Food-",
+      "tags": ["Cloud, Android, Embedded, Arduino, nodejs, GCP, OAuth2"]
     },
     {
       "id": "4",
-      "src": "./img/askey.jpeg",
+      "image": "./img/askey.jpeg",
       "title": "Used and New Car Website for Askey Auto(FreeLancing)",
       "description": "Developed a dynamic website for Askey Auto, facilitating the buying and selling of both new and used cars. The website incorporated modern web technologies, including Node.js, React.js, Firebase, HTML, and CSS, to ensure a seamless user experience.",
-      "link": "https://github.com/mehtaAnsh/askey-auto"
+      "link": "https://github.com/mehtaAnsh/askey-auto",
+      "tags": ["Cloud, Android, Embedded, Arduino, nodejs, GCP, OAuth2"]
     }, 
     {
       "id": "5",
-      "src": "./img/Logo.JPG",
+      "image": "./img/Logo.JPG",
       "title": "Medicare Shopping System - Flask ",
       "description": "Developed a Medicare Shopping System using Flask, HTML, and CSS to provide users with a seamless experience in browsing and selecting Medicare products like medicine. The system leveraged Flask's lightweight and efficient framework to handle user requests and responses.",
-      "link": "https://github.com/shahcharmil73/shopping_cart_python"
+      "link": "https://github.com/shahcharmil73/shopping_cart_python",
+      "tags": ["Cloud, Android, Embedded, Arduino, nodejs, GCP, OAuth2"]
     },
     {
       "id": "6",
-      "src": "./img/Line-Graph.png",
+      "image": "./img/Line-Graph.png",
       "title": "Uncovering the Factors that Drive Airbnb Bookings and Revenue ",
       "description":  "A portfolio which analyze NYC Airbnb data, predicting bookings and revenue. Conducted demand, price, and geospatial analyses. Developed fraud detection algorithms. Grouped owners based on pet, smoking, and party policies",
-      "link": "https://github.com/shahcharmil73/Uncovering-the-Factors-that-Drive-Airbnb-Bookings-and-Revenue"
+      "link": "https://github.com/shahcharmil73/Uncovering-the-Factors-that-Drive-Airbnb-Bookings-and-Revenue",
+      "tags": ["Cloud, Android, Embedded, Arduino, nodejs, GCP, OAuth2"]
     }
 
   ],

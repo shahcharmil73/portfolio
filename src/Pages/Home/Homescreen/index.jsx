@@ -6,6 +6,8 @@ import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 import Testimonial from "../Testimonials";
 import { Link } from 'react-router-dom';
+import SkillsGrid from "../SkillsGrid";
+import ProjectsSection from "../ProjectsSection";
 
 
 
@@ -15,6 +17,10 @@ export default function Home() {
     <>
       <HeroSection />
       <MySkills />
+    
+
+
+      <ProjectsSection />
       <Footer />
     </>
   );

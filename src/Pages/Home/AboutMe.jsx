@@ -25,7 +25,7 @@ const educationTimeline = [
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className='about'>
    < div className="about--section">
       <div className="about--section--img">
         <img src="./img/em1.jpg" alt="About Me" />
@@ -33,7 +33,7 @@ export default function AboutMe() {
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
           <p className="section--title"></p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <div className="skills-section--headings"><h1>About Me</h1></div>
           <p className="hero--section-description">
             A passionate and driven computer science Engineer with a strong foundation in both theoretical concepts and practical applications, I have honed my skills in full-stack development, cloud computing, embedded systems, and UI/UX design. My journey in the field of technology has been fueled by relentless curiosity and a desire to innovate. I am committed to leveraging my skills and knowledge to create meaningful and impactful solutions that address real-world challenges.
           </p>
